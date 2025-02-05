@@ -2,26 +2,21 @@ package hiarita;
 
 public class Operadores {
 public static void main(String[] args) {
+     boolean condicao1 = true;
 
-     String nomeum = "fer";
-     // String nomedois = "hia";
-     String nomedois = new String("hia");
-     System.out.println(nomeum.equals(nomedois));
-     // System.out.println(nomeum == nomedois );
-     int numero1 = 1;
-     int numero2 = 2;
+     boolean condicao2 = false;
 
-     boolean simnao = numero1 == numero2;
+     if (condicao1 && (7>4)) {
+          System.out.println("As duas condições são verdadeiras");
+     }
+     // if (condicao1 && condicao2) {
+     //      System.out.println("As duas condições são verdadeiras");
+     // }
 
-     System.out.println("numeroUm é igual a numerodois?"+ simnao);
+     if (condicao1 || condicao2) {
+          System.out.println("Uma das condições é verdadeira");
+     }
 
-     simnao = numero1 != numero2;
-     System.out.println("numeroUm é diferente de numerodois?" + simnao);
-
-     simnao = numero1 > numero2;
-     System.out.println("numeroUm é maior que numerodois?" + simnao);
-
-     simnao = numero1 < numero2;
-     System.out.println("numeroUm é menor que numerodois?" + simnao);
+     System.out.println("fim");
 }
 }
