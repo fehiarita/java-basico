@@ -2,14 +2,20 @@ package hiarita;
 
 public class Operadores {
 public static void main(String[] args) {
-     boolean variavel = true;
+     int a, b;
+     a = 6;
+     b = 6;
 
-    //com esse código a variável nao vai ser mudada
-    //  System.out.println(!variavel);
+     int resultado = a == b ? 1 : 2;
 
-    //forma de inverter uma variável booleana 
-    variavel = !variavel;
+     // String resultado = "";
+     // nao utilizando o operador ternário
+     // if (a==b) {
+     //      resultado = "verdadeiro";
 
-     System.out.println(variavel);
+     // }else{
+     //      resultado = "falso";
+     // }
+     System.out.println(resultado);
 }
 }
