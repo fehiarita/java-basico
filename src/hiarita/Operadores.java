@@ -2,20 +2,26 @@ package hiarita;
 
 public class Operadores {
 public static void main(String[] args) {
-     int a, b;
-     a = 6;
-     b = 6;
 
-     int resultado = a == b ? 1 : 2;
+     String nomeum = "fer";
+     // String nomedois = "hia";
+     String nomedois = new String("hia");
+     System.out.println(nomeum.equals(nomedois));
+     // System.out.println(nomeum == nomedois );
+     int numero1 = 1;
+     int numero2 = 2;
 
-     // String resultado = "";
-     // nao utilizando o operador ternário
-     // if (a==b) {
-     //      resultado = "verdadeiro";
+     boolean simnao = numero1 == numero2;
 
-     // }else{
-     //      resultado = "falso";
-     // }
-     System.out.println(resultado);
+     System.out.println("numeroUm é igual a numerodois?"+ simnao);
+
+     simnao = numero1 != numero2;
+     System.out.println("numeroUm é diferente de numerodois?" + simnao);
+
+     simnao = numero1 > numero2;
+     System.out.println("numeroUm é maior que numerodois?" + simnao);
+
+     simnao = numero1 < numero2;
+     System.out.println("numeroUm é menor que numerodois?" + simnao);
 }
 }
