@@ -1,4 +1,4 @@
-package hiarita;
+package hiarita.basicos;
 public class MinhaClasse {
     public MinhaClasse() {
     }

@@ -1,3 +1,5 @@
+package hiarita.sistema_Smart_tv;
+
 public class SmartTv {
     boolean ligada = false;
     int canal = 1;
