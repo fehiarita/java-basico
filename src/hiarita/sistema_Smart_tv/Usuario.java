@@ -1,6 +1,8 @@
+package hiarita.sistema_Smart_tv;
+
 public class Usuario {
     public static void main(String[] args) {
-        SmartTv tv  = new SmartTv();
+        hiarita.sistema_Smart_tv.SmartTv tv  = new hiarita.sistema_Smart_tv.SmartTv();
 
         tv.diminuirVolume();
         tv.diminuirVolume();
